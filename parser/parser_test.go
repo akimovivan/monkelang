@@ -277,8 +277,7 @@ func TestParsingInfixExpression(t *testing.T) {
 
 func TestOperatorPrecedenceParsing(t *testing.T) {
 	tests := []struct {
-		input
-		string
+		input    string
 		expected string
 	}{
 		{
